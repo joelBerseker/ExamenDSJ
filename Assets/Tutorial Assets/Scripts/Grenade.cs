@@ -25,7 +25,7 @@ public class Grenade : MonoBehaviour
         Destroy(gameObject);
         intento.Fallo();
         Instantiate(prefabExplosion,transform.position,transform.rotation);
-        Instantiate(gameObject,new Vector3(-2,-1,0),transform.rotation);
+        Instantiate(gameObject,new Vector3(-5.46f,-0.78f,0),transform.rotation);
         
     }
 }
